@@ -1,0 +1,20 @@
+@relation pizza
+
+@attribute meat {n, y}
+@attribute crust {d, s, t}
+@attribute veg {n, y}
+@attribute quality {b, g, r}
+
+@data
+%
+% 9 instances
+%
+y, t, n, r
+n, d, n, b
+n, s, y, g
+y, s, y, r
+y, d, n, g
+y, d, y, r
+n, t, y, g
+y, d, n, g
+n, t, n, b
